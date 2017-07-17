@@ -1,13 +1,15 @@
 # icegameRL
 try to play ice game with RL from kv
 
-## Now Setting
-write latter
-
 ## Link
 * kvzhao/rlloop: https://github.com/kvzhao/rlloop
 * kvzhao/icegame: https://github.com/kvzhao/icegame
 
+## Intro
+This repository is use to arrange my experiment.
+
+## Now Setting
+write latter
 
 ## Jizz
 
