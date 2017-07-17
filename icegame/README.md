@@ -1,13 +1,13 @@
-# icegame (from kvzhao)
+# icegame (from [kvzhao](https://github.com/kvzhao/icegame))
 
-## intro
+## Intro
 Designed as an environments interacting with spin ice system.
 Original enviroment and Cpp code from: https://github.com/kvzhao/icegame
 This dir only save gym-icegame enviroment code.
 
-### gym-icegame
+## Install gym-icegame
 
-Install python interface 
+after compile C++ code
 
 ```
 python setup.py install

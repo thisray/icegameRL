@@ -5,9 +5,8 @@ try to play ice game with RL from kv
 write latter
 
 ## Link
-kvzhao/rlloop: https://github.com/kvzhao/rlloop
-
-kvzhao/icegame: https://github.com/kvzhao/icegame
+* kvzhao/rlloop: https://github.com/kvzhao/rlloop
+* kvzhao/icegame: https://github.com/kvzhao/icegame
 
 
 ## Jizz
