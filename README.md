@@ -11,8 +11,8 @@ kvzhao/icegame: https://github.com/kvzhao/icegame
 
 ## JIZZ
 
-ACCEPTS!
-[GAME] Updated Succesfully!
+    ACCEPTS!
+    [GAME] Updated Succesfully!
 
     +------------------------------------------------------------------------------------------------+
     |                                                                                                |
