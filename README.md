@@ -1,5 +1,5 @@
 # icegameRL
-try to play ice game with RL from kv
+Try to play ice game with RL from kv.
 
 ## Link
 * kvzhao/rlloop: https://github.com/kvzhao/rlloop

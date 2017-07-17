@@ -11,7 +11,7 @@ I use the original version of `libicegame.so`, which don't have `sim.clear_buffe
 
 ## Install gym-icegame
 
-after compile C++ code
+after compile the C++ code
 
 ```
 python setup.py install
