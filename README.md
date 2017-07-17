@@ -8,10 +8,17 @@ try to play ice game with RL from kv
 ## Intro
 This repository is use to arrange my experiment.
 
+### experiment code:
+* DQN_try.py
+* icegame_env.py
+
 ## Now Setting
 write latter
 
-## Jizz
+## TODO (daydream)
+write latter
+
+## Jizz 身寸☆惹ㄦ
 
     ACCEPTS!
     [GAME] Updated Succesfully!

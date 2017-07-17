@@ -6,7 +6,7 @@ Applying reinforcement learning algorithm to play [icegame](https://github.com/k
 ## Enviroment
 * python 2.7
 * tensorflow 1.0
-* need to put `libicegame.so` in this dir
+* need to install `gym-icegame enviroment` and put `libicegame.so` in this dir
 
 ## some setting
 * action: [0, 1, 2, 3, 4, 5, 6] (with auto_step)
