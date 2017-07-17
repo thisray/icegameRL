@@ -2,14 +2,15 @@
 try to play ice game with RL from kv
 
 ## Now Setting
-
+write latter
 
 ## Link
 kvzhao/rlloop: https://github.com/kvzhao/rlloop
+
 kvzhao/icegame: https://github.com/kvzhao/icegame
 
 
-## JIZZ
+## Jizz
 
     ACCEPTS!
     [GAME] Updated Succesfully!
