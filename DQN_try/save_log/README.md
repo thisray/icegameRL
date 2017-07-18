@@ -3,13 +3,13 @@
 
 ## experiment 7
 
-* train to 617 episodes
-* have longer length, larger area loops than past experiments
+* train to 617 episodes (319,623 steps)
+* accepted loops have longer length and larger area than past experiments
 
 ## experiment 8
 
-* train to 1487 episodes (training faster than exp7)
-* use fewer steps to get ACCEPTED loop
+* train to 1487 episodes (335,396 steps, training faster than exp7)
+* use fewer steps to get accepted loop
 * but don't have larger area loop
 * setting: `replay_memory_size=500000` , would use 93.1% of 32G memory
 
