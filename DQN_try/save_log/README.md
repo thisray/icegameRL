@@ -15,4 +15,4 @@
 
 ## note
 
-* environment setting: https://github.com/thisray/icegameRL/tree/master/icegame/gym-icegame/gym_icegame/envs
+* environment setting: [envs](https://github.com/thisray/icegameRL/tree/master/icegame/gym-icegame/gym_icegame/envs)
