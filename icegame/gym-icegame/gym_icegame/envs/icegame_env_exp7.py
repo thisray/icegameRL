@@ -91,7 +91,6 @@ class IceGameEnv(core.Env):
 
         metropolis_executed = False
         self.dict_dict(target_dict=self.action_dict, target_key=action)
-        auto_6 = False
 
         if (action == 6):
             self.sim.flip_trajectory()
@@ -108,20 +107,15 @@ class IceGameEnv(core.Env):
                 self.sim.flip_trajectory()
                 rets = self.sim.metropolis()
                 metropolis_executed = True
-                ## record 'auto_6'
-                self.dict_dict(target_dict=self.action_dict, target_key='auto_6')
-                auto_6 = True
 
         if (metropolis_executed):
+            self.move_times = 0
+            
             # ## test add this
             # terminate = True
-            self.move_times = 0     # if not zero here, after step 1024 each step would act '6'
-
             if rets[0] > 0 and rets[3] > 0:
                 ## test add this
                 terminate = True
-                # self.move_times = 0
-
                 print ('ACCEPTS!')
                 self.sim.update_config()
                 ## get length and update dict
@@ -132,13 +126,8 @@ class IceGameEnv(core.Env):
                 self.dict_dict(target_dict=self.area_dict, target_key=accepted_area)
                 ## reward
                 r_length = 1.0
-                r_area = 10.0
-
-                ## if it action 6 by self, reward would x2
-                auto_6_reward = 2.0
-                if auto_6 == True:
-                    auto_6_reward = 1.0
-                reward = (r_length * accepted_length + r_area * accepted_area) * auto_6_reward
+                r_area = 8.0
+                reward = r_length * accepted_length + r_area * accepted_area
                 if reward > 2:
                     self.render()
                 ## record
@@ -153,9 +142,9 @@ class IceGameEnv(core.Env):
                 self.sim.reset()    ## reset positon
             else:
                 if (rets[3] == 0):     # I guess this is GameOver ?
-                    reward = - 0.5 * 0.2    # last is 0.1
+                    reward = - 0.5 * 0.1
                 else:
-                    reward = - 1 * 0.2
+                    reward = - 1 * 0.1
                 self.sim.reset()
                 # self.start(rnum(self.N))
             # reset or update
